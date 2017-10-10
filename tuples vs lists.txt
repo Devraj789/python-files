@@ -1,0 +1,34 @@
+tuples			list
+a=(1,2,3.'aa')		a=[1,2,3,'aa']
+t[0]=5 error		a[0]=5
+constant list
+
+
+
+set
+l=[1,1,2,3,2,0,-1,-1]
+
+conditional operators
+	== equality
+	!=
+	<=
+	>=
+
+int n=10;	n=10
+if(n%2==0)	if(n%2==0)
+		   print(n,'is even')
+
+Q1.
+l=[2,3,5,7,9]
+which no in the list exactly divides 49
+Q2.
+s='lallitpur'
+'lali'
+Q3.
+Generate prime numbers 1 to 100.
+Name=['Ram','Shyam','Gita']
+age=[10,20,15]
+occ=['student','astronaut','student']
+q. wirte a py method that will check whether the given number is odd/even?
+q.wirte a py methond that will check whether the given number is prime or not
+q. write a python that will return fibonacii series

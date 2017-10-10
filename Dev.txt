@@ -1,0 +1,33 @@
+
+1.file handling process
+
+Here firstly we do 
+
+ e.g
+   f.open("a.py","w")
+   f.write("Any text here")
+   f.close()
+After doing this in cmd we write b.py(name of the file)and then a.py is created then
+
+f.open("a.py","r")
+line = f.read()
+print(line)
+f.close()
+here it reads all the text of the contents of a.py
+
+
+
+2.map and filter
+
+map and filter both looks like same .but map is used for overall process of changing list
+ whereas filter is used while for finding the certain condition son the list 
+
+e.g of map
+a = [10,20,30,40]
+b = list(map(lambda X:X+2,a))
+print(b)
+
+e.g of filter
+a = [10,20,30,40]
+b = list(filter(lambda X:X%2 ==0 ,a))
+print(b)
