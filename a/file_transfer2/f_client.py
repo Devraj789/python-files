@@ -27,7 +27,7 @@ filename = os.path.join(path,filename)
 filesize = os.path.getsize(filename)
 print ('filesize:',filesize)
 filesize = bin(filesize)[2:].zfill(32) # encode filesize as 32 bit binary
-s.send(filesize)
+s.send(filesize.encode('utf-8'))
 file_to_send = open(filename, 'rb')
 
 l = file_to_send.read()
